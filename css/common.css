@@ -41,6 +41,7 @@ button {
   cursor: pointer;
 }
 /* #endregion Reset */
+
 /* #region Task1 */
 .titleUl {
   font-weight: 600;
@@ -90,6 +91,21 @@ button {
 /* #endregion Task1 */
 
 /* #region Task2 */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 16px;
+}
+
+.gallery-img {
+  display: block;
+  width: 360px;
+  height: 300px;
+
+  border-radius: 8px;
+}
 
 /* #endregion Task2 */
 
@@ -157,7 +173,13 @@ button {
   padding-left: 16px;
   background: #4e75ff;
   border: none;
+  transition: background-color 0.35s ease-in-out;
 }
+.btnForm:hover,
+.btnForm:focus {
+  background-color: #6c8cff;
+}
+
 /* #endregion Task4 */
 
 /* #region Task5 */
@@ -169,21 +191,18 @@ button {
   border-radius: 8px;
   gap: 10px;
   padding-top: 100px;
-  padding-right: 88px;
   padding-bottom: 100px;
-  padding-left: 88px;
   background-color: #ffffff;
 }
 
 .textParagraf {
-  width: 169px;
-  height: 24px;
-
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 4%;
   color: #2e2f42;
+  margin-left: auto;
+  margin-right: auto;
 }
 .btnChangeColor {
   color: #ffffff;
@@ -204,6 +223,11 @@ button {
   border: none;
   margin-left: auto;
   margin-right: auto;
+  transition: background-color 0.35s ease-in-out;
 }
 
+.btnChangeColor:hover,
+.btnChangeColor:focus {
+  background-color: #6c8cff;
+}
 /* #endregion Task5 */

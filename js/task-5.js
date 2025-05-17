@@ -14,4 +14,4 @@ function clickBtnChangeColor() {
   spanAddColor.textContent = `${getRandomHexColor()}`;
   body.style.backgroundColor = `${getRandomHexColor()}`;
 
-}
+}  

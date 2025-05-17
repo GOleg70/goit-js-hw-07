@@ -11,7 +11,7 @@ const body = document.body;
 lisenChange.addEventListener("click", clickBtnChangeColor);
 
 function clickBtnChangeColor() {
-  spanAddColor.textContent = ` - ${getRandomHexColor()}`;
+  spanAddColor.textContent = `${getRandomHexColor()}`;
   body.style.backgroundColor = `${getRandomHexColor()}`;
 
 }
